@@ -20,10 +20,10 @@ The Toy Robot project is a console application developed using VB.NET targeting 
 1. Run the Robot Project:
    - Open the solution in Visual Studio.
    - Set the "Robot" project as the startup project.
-   - Change path in `inputFile` variable on `Program.vb` file for read commands in `input.txt` file.
+   - Adjust the path in the `inputFile` variable within the `Program.vb` file to read commands from the `input.txt` file.
    - Press F5 or click on the Run button to start the application.
   
-   #### Or you can uncomment `#Region "Input From cmd"` on `Program.vb` file for manual input commands by console command line
+   #### Alternatively you can uncomment `#Region "Input From cmd"` in the `Program.vb` file for manual input commands via the console command line.
    - Input commands in the command console using the following format:
      - `PLACE x,y,f`
      - `MOVE`
